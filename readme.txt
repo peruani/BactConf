@@ -1,0 +1,4 @@
+
+The file "database.txt" contains 6 columns : bacterial id, confinement height, time (t) and  smoothed coordinates (x,y,z) of the 92 bacterial tracks used in the study. Units are microns and seconds. The smoothing procedure is described in Methods. Confinement height is the one expected from scotch thickness, the objective measurement used in the study is described in Methods.
+
+The file "BactConf_repo.cpp" is C++ code. Compilation instructions can be found as a comment in the first lines of the code. The code simulates both, the BV model (FlagModel=1) and P model described in the main text: it generates 3D trajectories and computes the corresponding MSD.     
